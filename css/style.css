@@ -75,4 +75,5 @@ body {
 		-moz-transition: all .4s ease;
 		-o-transition: all .4s ease;
 		transition: all .4s ease;
+    cursor: pointer;
 }
