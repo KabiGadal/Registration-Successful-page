@@ -82,7 +82,7 @@
     <p id='message'>
       Congratulations, your account has been Registered Successfully.
     </p>
-    <a onclick="handleContinue()" id="contBtn">Continue</a>
+    <a onclick="window.location.reload();history.go(-1);" id="contBtn">Continue</a>
   </div>
 </div>
 <!-- partial -->
@@ -99,10 +99,3 @@
 
 	</body>
 </html>
-<script>
-
-  function handleContinue(){
-    history.go(-1);
-    document.location.reload (true);
-  }
-</script>
